@@ -1,0 +1,255 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /api/ragent
+
+spring:
+  application:
+    name: ragent${unique-name:}-service
+
+  ai:
+    openai:
+      # 默认使用 mimo 供应商（所有供应商都兼容OpenAI协议）
+      base-url: https://token-plan-cn.xiaomimimo.com/v1
+      api-key: ${MIMO_API_KEY:tp-czbtpkp0sn2j8cr94ujj6kasegtyl5yk1fs41511eifvgtif}
+      chat:
+        options:
+          model: mimo-v2-pro
+          temperature: 0.7
+
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 100MB
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    type: com.zaxxer.hikari.HikariDataSource
+    username: postgres
+    password: postgres
+    url: jdbc:postgresql://127.0.0.1:5432/ragent?client_encoding=UTF8
+    hikari:
+      connection-timeout: 5000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      maximum-pool-size: 10
+      minimum-idle: 5
+      pool-name: RagentHikariPool
+
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password: 123456
+
+rocketmq:
+  name-server: 127.0.0.1:9876
+  producer:
+    group: ragent-producer${unique-name:}_pg
+    send-message-timeout: 2000
+
+milvus:
+  uri: http://localhost:19530
+
+rag:
+  vector:
+    type: pg  # 可选 milvus / pg
+
+  default:
+    collection-name: rag_default_store
+    dimension: 1024
+    metric-type: COSINE
+    sse-timeout-ms: 300000  # SSE 全局超时（毫秒），默认 5 分钟
+
+  query-rewrite:
+    enabled: false
+
+  intent:
+    enabled: false # 意图识别开关，设置为 false 可关闭意图识别
+
+  rate-limit:
+    global:
+      enabled: true
+      max-concurrent: 10
+      max-wait-seconds: 15
+      lease-seconds: 30
+      poll-interval-ms: 200
+
+  memory:
+    history-keep-turns: 4
+    summary-start-turns: 5
+    summary-enabled: true
+    summary-max-chars: 200
+    title-max-length: 30
+
+  semaphore:
+    document-upload:
+      name: rag:document:upload
+      max-concurrent: 10
+      max-wait-seconds: 5
+      lease-seconds: 300
+
+  knowledge:
+    schedule:
+      scan-delay-ms: 10000
+      lock-seconds: 900
+      batch-size: 20
+      min-interval-seconds: 60
+
+  mcp:
+    servers:
+      - name: default
+        url: http://localhost:9099
+
+  search:
+    channels:
+      vector-global:
+        confidence-threshold: 0.6
+        top-k-multiplier: 3
+      intent-directed:
+        min-intent-score: 0.4
+        top-k-multiplier: 2
+      keyword:
+        enabled: true
+        topk-multiplier: 3
+        boost: 1.0
+      hybrid:
+        enabled: true
+        fusion: RRF           # RRF | WEIGHTED_SUM
+        vector-weight: 0.7
+
+  trace:
+    enabled: true
+    max-error-length: 1000
+
+ai:
+  providers:
+    ollama:
+      url: http://localhost:11434
+      endpoints:
+        chat: /v1/chat/completions
+        embedding: /v1/embeddings
+    bailian:
+      url: https://dashscope.aliyuncs.com
+      api-key: ${BAILIAN_API_KEY:}
+      endpoints:
+        chat: /compatible-mode/v1/chat/completions
+        rerank: /api/v1/services/rerank/text-rerank/text-rerank
+    aihubmix:
+      url: https://aihubmix.com
+      api-key: ${AIHUBMIX_API_KEY:}
+      endpoints:
+        chat: /v1/chat/completions
+        embedding: /v1/embeddings
+    siliconflow:
+      url: https://api.siliconflow.cn
+      api-key: sk-hxbfynpfpvzerweiruelshygdsodzjfstkugaxztxexhytdb
+      endpoints:
+        chat: /v1/chat/completions
+        embedding: /v1/embeddings
+        rerank: /v1/rerank
+    mimo:
+      url: https://token-plan-cn.xiaomimimo.com/v1
+      api-key: tp-czbtpkp0sn2j8cr94ujj6kasegtyl5yk1fs41511eifvgtif
+      endpoints:
+        chat: /chat/completions
+
+  selection:
+    failure-threshold: 2
+    open-duration-ms: 30000
+
+  stream:
+    message-chunk-size: 1
+
+  chat:
+    default-model: mimo-v2-pro
+    deep-thinking-model: mimo-v2-pro
+    intent-classification-model: Qwen/Qwen2.5-7B-Instruct
+    candidates:
+      - id: mimo-v2-pro
+        provider: mimo
+        model: mimo-v2-pro
+        priority: 1
+      # - id: qwen-plus
+      #   provider: bailian
+      #   model: qwen-plus-latest
+      #   priority: 2
+      # - id: qwen3-local
+      #   provider: ollama
+      #   model: qwen3:8b-fp16
+      #   priority: 3
+      # - id: qwen3-max
+      #   provider: bailian
+      #   model: qwen3-max
+      #   supports-thinking: true
+      #   priority: 4
+      # - id: glm-4.7
+      #   provider: siliconflow
+      #   model: Pro/zai-org/GLM-4.7
+      #   supports-thinking: true
+      #   priority: 5
+      # - id: gpt-5.4
+      #   provider: aihubmix
+      #   model: gpt-5.4
+      #   priority: 6
+      - id: Qwen/Qwen2.5-7B-Instruct
+        provider: siliconflow
+        model: Qwen/Qwen2.5-7B-Instruct
+        priority: 9
+      # - id: qwen-plus-classify
+      #   provider: siliconflow
+      #   model: Qwen/Qwen2.5-7B-Instruct
+      #   priority: 10
+
+  embedding:
+    default-model: bge-m3       # 1. 将默认调用的模型 ID 改为新名字
+    candidates:
+      - id: bge-m3              # 2. 这里的 ID 要和上面 default-model 保持一致
+        provider: siliconflow
+        model: BAAI/bge-m3      # 3. 严格大小写，前面必须带 BAAI/
+        # 不设置 dimension，使用模型默认维度，SiliconFlow 的 bge-m3 不支持 dimensions 参数
+        priority: 1
+      - id: qwen-emb-local
+        provider: ollama
+        model: qwen3-embedding:8b-fp16
+        dimension: ${rag.default.dimension}
+        priority: 2
+      - id: text-embedding-3-large
+        provider: aihubmix
+        model: text-embedding-3-large
+        dimension: ${rag.default.dimension}
+        priority: 3
+  rerank:
+    default-model: bge-reranker-v2-m3      # 1. 默认模型指向新的 ID
+    candidates:
+      - id: bge-reranker-v2-m3             # 2. 这里的 ID 与 default-model 保持一致
+        provider: siliconflow              # 3. 提供商改为 siliconflow，它会自动复用你前面配置的全局 URL 和 API Key
+        model: BAAI/bge-reranker-v2-m3     # 4. 严格区分大小写的模型名称
+        priority: 1                        # 5. 优先级设为 1，确保最先被调用
+      - id: qwen3-rerank
+        provider: bailian
+        model: qwen3-rerank
+        priority: 2                        # 原来的百炼模型降级为备用
+      - id: rerank-noop
+        provider: noop
+        model: noop
+        priority: 100
+
+rustfs:
+  url: http://localhost:9000
+  access-key-id: rustfsadmin
+  secret-access-key: rustfsadmin
+
+sa-token:
+  token-name: Authorization
+  timeout: 2592000
+  is-concurrent: true
+  is-share: false
+  token-style: simple-uuid
+  is-log: false
+  is-print: false
+
+app:
+  demo-mode: false
+  eval:
+    enabled: true

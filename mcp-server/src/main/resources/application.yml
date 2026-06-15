@@ -1,0 +1,25 @@
+server:
+  port: 9099
+
+spring:
+  application:
+    name: ragent-mcp-server
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://127.0.0.1:5432/ragent?client_encoding=UTF8
+    username: postgres
+    password: postgres
+    hikari:
+      connection-timeout: 5000
+      idle-timeout: 600000
+      max-lifetime: 1800000
+      maximum-pool-size: 5
+      minimum-idle: 1
+      pool-name: McpNl2SqlPool
+
+nl2sql:
+  api-url: https://token-plan-cn.xiaomimimo.com/v1/chat/completions
+  api-key: tp-czbtpkp0sn2j8cr94ujj6kasegtyl5yk1fs41511eifvgtif
+  model: mimo-v2-pro
+  max-rows: 200
+  llm-timeout-seconds: 60

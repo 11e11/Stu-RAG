@@ -1,0 +1,857 @@
+[
+  {
+    "id": 1,
+    "question": "公司试用期一般多长？试用期中间需要做什么评估？",
+    "answer": "试用期一般为3-6个月。在入职第2个月需要进行中期评估（转正中期面谈），试用期到期前还需要进行正式转正评审。",
+    "contexts": [
+      "人事制度.md: 试用期管理：试用期一般为3-6个月，入职第2个月进行中期评估（转正中期面谈），试用期到期前进行正式转正评审。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/人事制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/人事制度.md"
+    ]
+  },
+  {
+    "id": 2,
+    "question": "试用期员工辞职需要提前几天通知？转正后呢？",
+    "answer": "试用期辞职需要提前3天通知，转正后辞职需要提前30天通知。",
+    "contexts": [
+      "人事制度.md: 试用期内辞职需提前3天通知，转正后辞职需提前30天通知，并完成工作交接、资产归还和离职清算。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/人事制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/人事制度.md"
+    ]
+  },
+  {
+    "id": 3,
+    "question": "公司的上班时间是几点到几点？中午休息多长时间？",
+    "answer": "公司工作时间为周一至周五 9:30-18:30，中午休息1小时。部分团队实行弹性工作制。",
+    "contexts": [
+      "公司规章制度.md: 工作时间：周一至周五 9:30-18:30，中午1小时午休时间。部分团队实行弹性工作制。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/公司规章制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/公司规章制度.md"
+    ]
+  },
+  {
+    "id": 4,
+    "question": "加班到晚上11点，第二天可以几点上班？如果加班到凌晨呢？",
+    "answer": "加班到晚上23:00，第二天可以10:00到岗；加班到凌晨，第二天可以13:00到岗。",
+    "contexts": [
+      "公司规章制度.md: 深夜加班弹性规则：工作到23:00，次日可10:00到岗；工作到凌晨，次日可13:00到岗。加班需提前审批，优先安排调休。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/hr/公司规章制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/公司规章制度.md"
+    ]
+  },
+  {
+    "id": 5,
+    "question": "公司有哪些类型的假期？年假怎么申请？",
+    "answer": "公司提供年假、病假、事假、婚假、产假/陪产假等假期类型。年假需提前3天通过系统提交请假申请。",
+    "contexts": [
+      "人事制度.md: 假期类型包括年假、病假、事假、婚假、产假/陪产假等。年假申请需提前3天通过系统提交。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/人事制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/人事制度.md"
+    ]
+  },
+  {
+    "id": 6,
+    "question": "年假可以结转到下一年吗？什么时候清零？",
+    "answer": "年假可以结转，但通常在次年某个时间节点前清零，具体清零规则需参考公司当年通知。建议在年底前休完剩余年假。",
+    "contexts": [
+      "人事制度.md: 年假结转与清零规则详见FAQ部分，年假建议在年底前休完。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "factual",
+      "source_file": "group/hr/人事制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/人事制度.md"
+    ]
+  },
+  {
+    "id": 7,
+    "question": "绩效考核的结果有几个等级？如果对考核结果不满意怎么办？",
+    "answer": "绩效考核结果分为优秀、良好、达标、待改进四个等级。如果不满意，可在考核结果公布后5个工作日内提出申诉。",
+    "contexts": [
+      "人事制度.md: 绩效评级分为优秀、良好、达标、待改进四个等级。员工可在考核结果公布后5个工作日内提出申诉。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/人事制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/人事制度.md"
+    ]
+  },
+  {
+    "id": 8,
+    "question": "公司的晋升流程是怎样的？",
+    "answer": "晋升流程包括：员工申请→直属经理推荐→部门评审委员会审议→高级管理层审批→HR执行晋升。需要综合考虑绩效表现、能力评估、培训记录和组织认可。",
+    "contexts": [
+      "人事制度.md: 晋升流程：员工申请，经理推荐，部门评审委员会审议，高级管理层审批，HR执行。",
+      "员工培训.md: 晋升前提条件包括绩效表现、能力评估、培训记录和组织认可。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/hr/人事制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/人事制度.md",
+      "group/hr/员工培训.md"
+    ]
+  },
+  {
+    "id": 9,
+    "question": "公司有哪几种职级晋升通道？可以跨通道转吗？",
+    "answer": "公司有双通道晋升体系：专业通道（工程师→高级工程师→专家→首席专家）和管理通道（团队负责人→经理→高级经理→总监）。两个通道之间可以跨通道转换。",
+    "contexts": [
+      "员工培训.md: 双通道职业发展：专业通道（工程师→高级工程师→专家→首席专家）和管理通道（团队负责人→经理→高级经理→总监），设有跨通道转换机制。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/员工培训.md"
+    },
+    "relevant_docs": [
+      "group/hr/员工培训.md"
+    ]
+  },
+  {
+    "id": 10,
+    "question": "P5工程师的薪资结构是什么样的？",
+    "answer": "P5工程师的薪资结构为：月薪20,000元基本工资 + 绩效奖金目标4,000元/月（系数0.8-1.2）+ 年终奖目标2.5个月 + 餐补600元/月 + 通讯补贴200元/月。",
+    "contexts": [
+      "薪资与福利政策.md: P5工程师薪资结构示例：基本工资20,000元/月，绩效奖金目标4,000元/月（系数0.8-1.2），年终奖目标2.5个月，餐补600元/月，通讯补贴200元/月。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "factual",
+      "source_file": "group/hr/薪资与福利政策.md"
+    },
+    "relevant_docs": [
+      "group/hr/薪资与福利政策.md"
+    ]
+  },
+  {
+    "id": 11,
+    "question": "每月几号发工资？工资是怎么构成的？",
+    "answer": "每月10号发放上月工资。工资构成包括：基本工资（月度固定）+ 绩效奖金（月度/季度/年度，浮动）+ 年终奖（目标1-3个月）+ 股权/期权（关键岗位）+ 各类补贴。",
+    "contexts": [
+      "薪资与福利政策.md: 发薪日为次月10日。工资构成：基本工资+绩效奖金+年终奖+股权/期权+各类补贴（餐补、交通补贴、通讯补贴等）。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/薪资与福利政策.md"
+    },
+    "relevant_docs": [
+      "group/hr/薪资与福利政策.md"
+    ]
+  },
+  {
+    "id": 12,
+    "question": "试用期的工资会打折吗？年终奖是必须发的吗？",
+    "answer": "试用期工资一般不打折。年终奖不是固定的，取决于公司整体业绩和个人绩效评级，不是必然发放的。",
+    "contexts": [
+      "薪资与福利政策.md: 试用期工资一般不打折。年终奖取决于公司整体业绩和个人绩效评级，不是必然发放。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "factual",
+      "source_file": "group/hr/薪资与福利政策.md"
+    },
+    "relevant_docs": [
+      "group/hr/薪资与福利政策.md"
+    ]
+  },
+  {
+    "id": 13,
+    "question": "发现工资不对怎么办？流程是什么？",
+    "answer": "工资核对流程：发薪日员工自查→5个工作日内提交异议→HR在2个工作日内响应→如有错误在下一个工资周期修正。系统发布的工资结果为权威依据。",
+    "contexts": [
+      "薪资与福利政策.md: 工资核对SOP：员工在发薪日自查，5个工作日内提交异议，HR在2个工作日内响应，错误在下一工资周期修正。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "procedural",
+      "source_file": "group/hr/薪资与福利政策.md"
+    },
+    "relevant_docs": [
+      "group/hr/薪资与福利政策.md"
+    ]
+  },
+  {
+    "id": 14,
+    "question": "社会招聘从投简历到拿offer一般要多久？",
+    "answer": "社会招聘从投简历到拿offer一般需要7-15个自然日。",
+    "contexts": [
+      "招聘信息.md: 社会招聘周期一般为7-15个自然日。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/招聘信息.md"
+    },
+    "relevant_docs": [
+      "group/hr/招聘信息.md"
+    ]
+  },
+  {
+    "id": 15,
+    "question": "社会招聘的完整流程包括哪些环节？",
+    "answer": "社会招聘流程：岗位申请审批（HC检查、薪资带宽、BU审批、预算审核、发布）→简历收集筛选（2个工作日）→业务面试（1-2轮，每轮60分钟）→综合终面（BU负责人）→HR面试+背调（核查最近2家雇主）→Offer审批→候选人确认及入职前沟通。",
+    "contexts": [
+      "招聘信息.md: 社会招聘完整流程包括岗位申请审批、简历筛选、业务面试、综合终面、HR面试及背调、Offer审批、入职沟通等环节。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "hard",
+      "type": "procedural",
+      "source_file": "group/hr/招聘信息.md"
+    },
+    "relevant_docs": [
+      "group/hr/招聘信息.md"
+    ]
+  },
+  {
+    "id": 16,
+    "question": "新员工入职第一天需要做什么？",
+    "answer": "新员工入职第一天：证件核验（身份证、学历证、银行卡）→系统信息录入→合同及合规文件签署→IT及行政配置（笔记本电脑、工牌、邮箱、系统账号）→团队介绍→统一入职培训。",
+    "contexts": [
+      "招聘信息.md: 新员工入职第一天SOP：证件核验、系统录入、合同签署、IT配置、团队介绍、统一培训。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/hr/招聘信息.md"
+    },
+    "relevant_docs": [
+      "group/hr/招聘信息.md"
+    ]
+  },
+  {
+    "id": 17,
+    "question": "新员工入职第一个月有哪些关键节点？",
+    "answer": "入职第一个月关键节点：第1周确认社保缴纳，第2周设定试用期目标，1个月时与HR进行入职回访。",
+    "contexts": [
+      "招聘信息.md: 入职第一个月关键节点：第1周社保确认，第2周试用期目标设定，1个月HR回访。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/hr/招聘信息.md"
+    },
+    "relevant_docs": [
+      "group/hr/招聘信息.md"
+    ]
+  },
+  {
+    "id": 18,
+    "question": "新员工的电脑是怎么发放的？",
+    "answer": "电脑发放流程：HR在入职前3天提交申请→IT部门根据岗位准备设备→入职当天发放并签字→更新资产记录。",
+    "contexts": [
+      "招聘信息.md: 电脑发放SOP：HR入职前3天提交申请，IT按岗位准备设备，入职当天发放签字，更新资产记录。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "procedural",
+      "source_file": "group/hr/招聘信息.md"
+    },
+    "relevant_docs": [
+      "group/hr/招聘信息.md"
+    ]
+  },
+  {
+    "id": 19,
+    "question": "公司培训有哪几类？新员工培训包含什么内容？",
+    "answer": "公司培训分为4类：入职培训（文化、制度、安全、工具）、通用技能（沟通、时间管理）、专业技能（工程、产品、运营等）、管理培训（团队管理、绩效辅导、面试技巧）。新员工入职培训涵盖公司历史、文化、规章制度、信息安全、工具使用等内容。",
+    "contexts": [
+      "员工培训.md: 培训分为入职培训、通用技能、专业技能、管理培训4类。新员工培训包含公司历史、文化、规章制度、信息安全、工具使用。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/员工培训.md"
+    },
+    "relevant_docs": [
+      "group/hr/员工培训.md"
+    ]
+  },
+  {
+    "id": 20,
+    "question": "可以跨部门报名参加培训课程吗？",
+    "answer": "可以跨部门报名，但需要经过直属经理审批同意。",
+    "contexts": [
+      "员工培训.md: 跨部门课程报名需经过直属经理审批同意。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/员工培训.md"
+    },
+    "relevant_docs": [
+      "group/hr/员工培训.md"
+    ]
+  },
+  {
+    "id": 21,
+    "question": "公司对兼职有什么规定？",
+    "answer": "公司允许兼职，但需要满足三个条件：不能从事与公司有竞争关系的工作，不能使用公司资源，需要提前获得审批同意。",
+    "contexts": [
+      "公司规章制度.md: 兼职政策：不得从事竞争性工作，不得使用公司资源，需获得审批同意。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/公司规章制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/公司规章制度.md"
+    ]
+  },
+  {
+    "id": 22,
+    "question": "什么情况下会被认定为违纪？处理流程是什么？",
+    "answer": "违纪行为包括违反法律法规、骚扰/歧视行为、信息安全违规、不当使用工作时间和资源、未经授权的对外沟通等。处理流程：证据收集→HR/合规举报→联合调查（员工有权申辩）→递进处罚（口头警告、书面警告、降级、解雇）→审批通知。轻微违纪需3个工作日内完成初步调查。",
+    "contexts": [
+      "公司规章制度.md: 违纪行为包括违反法律、骚扰歧视、信息安全违规等。处理流程包括证据收集、举报、调查、递进处罚、审批通知。轻微违纪需3个工作日内完成初步调查。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "hard",
+      "type": "procedural",
+      "source_file": "group/hr/公司规章制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/公司规章制度.md"
+    ]
+  },
+  {
+    "id": 23,
+    "question": "员工家属可以来公司探访吗？有什么规定？",
+    "answer": "家属探访仅限特殊日子，来访者需要进行登记。",
+    "contexts": [
+      "公司规章制度.md: 家属探访政策：仅限特殊日子，来访者需进行登记。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/公司规章制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/公司规章制度.md"
+    ]
+  },
+  {
+    "id": 24,
+    "question": "公司为员工提供哪些福利？",
+    "answer": "公司福利包括：社保+公积金（可选企业补充）、商业保险（补充医疗、重疾、意外）、带薪年假（入职即享10天以上）、节日礼品（端午、中秋、生日）、餐补/交通补贴/通讯补贴。",
+    "contexts": [
+      "薪资与福利政策.md: 福利包括社保公积金、商业保险、带薪年假、节日礼品、餐补交通补贴通讯补贴等。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/薪资与福利政策.md"
+    },
+    "relevant_docs": [
+      "group/hr/薪资与福利政策.md"
+    ]
+  },
+  {
+    "id": 25,
+    "question": "公司年度调薪是怎么操作的？",
+    "answer": "年度调薪流程：绩效结果汇总→部门提出调整建议→HRBP校准公平性审查→跨部门审批→生效日期执行→通过自助系统通知员工。",
+    "contexts": [
+      "薪资与福利政策.md: 年度调薪流程：绩效汇总→部门建议→HRBP校准→跨部门审批→执行→通知。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/hr/薪资与福利政策.md"
+    },
+    "relevant_docs": [
+      "group/hr/薪资与福利政策.md"
+    ]
+  },
+  {
+    "id": 26,
+    "question": "忘记密码了怎么重置？",
+    "answer": "通过统一身份平台进行密码重置。如果无法自助重置，联系IT服务台协助处理。",
+    "contexts": [
+      "IT支持.md: 密码重置通过统一身份平台操作，无法自助重置时联系IT服务台。"
+    ],
+    "metadata": {
+      "domain": "it",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/it/IT支持.md"
+    },
+    "relevant_docs": [
+      "group/it/IT支持.md"
+    ]
+  },
+  {
+    "id": 27,
+    "question": "VPN连不上怎么排查？",
+    "answer": "VPN连接排查步骤：1.确认安全基线合规；2.检查网络连接是否正常；3.尝试重新连接；4.如超时检查防火墙设置；5.如部分访问检查路由配置；6.如速度慢检查带宽。如仍无法解决，提交IT工单并附上错误信息。",
+    "contexts": [
+      "IT支持.md: VPN排查步骤：确认安全基线合规、检查网络、重新连接、检查防火墙、检查路由、检查带宽。无法解决提交工单。"
+    ],
+    "metadata": {
+      "domain": "it",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/it/IT支持.md"
+    },
+    "relevant_docs": [
+      "group/it/IT支持.md"
+    ]
+  },
+  {
+    "id": 28,
+    "question": "怎么在电脑上添加打印机？",
+    "answer": "Windows系统：通过自动发现或手动输入IP地址添加。macOS系统：通过系统偏好设置→打印机与扫描仪→添加打印机。也可通过打印门户安装。",
+    "contexts": [
+      "IT支持.md: Windows通过自动发现或手动IP添加，macOS通过系统偏好设置添加，也可通过打印门户安装。"
+    ],
+    "metadata": {
+      "domain": "it",
+      "difficulty": "easy",
+      "type": "procedural",
+      "source_file": "group/it/IT支持.md"
+    },
+    "relevant_docs": [
+      "group/it/IT支持.md"
+    ]
+  },
+  {
+    "id": 29,
+    "question": "收到钓鱼邮件应该怎么处理？",
+    "answer": "收到钓鱼邮件应：不要点击任何链接或附件→立即报告IT安全团队→删除邮件。IT安全团队会进行调查处理。",
+    "contexts": [
+      "IT支持.md: 钓鱼邮件处理：不点击链接附件，立即报告IT安全团队，删除邮件。"
+    ],
+    "metadata": {
+      "domain": "it",
+      "difficulty": "easy",
+      "type": "procedural",
+      "source_file": "group/it/IT支持.md"
+    },
+    "relevant_docs": [
+      "group/it/IT支持.md"
+    ]
+  },
+  {
+    "id": 30,
+    "question": "IT事件的严重等级是怎么划分的？",
+    "answer": "P1级：全园区网络/VPN/邮件中断；P2级：单园区或楼层故障、影响CI/CD；P3级：个人设备/软件/账号问题。P1事件需15分钟内分级处理后上报。",
+    "contexts": [
+      "IT支持.md: P1全园区中断，P2单园区/楼层故障，P3个人设备问题。P1需15分钟内分级处理后上报。"
+    ],
+    "metadata": {
+      "domain": "it",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/it/IT支持.md"
+    },
+    "relevant_docs": [
+      "group/it/IT支持.md"
+    ]
+  },
+  {
+    "id": 31,
+    "question": "会议屏幕共享失败了怎么处理？",
+    "answer": "会议屏幕共享失败排查：1.检查网络连接；2.确认会议软件权限；3.尝试重启软件；4.检查是否有插件冲突。如仍无法解决，联系IT支持。",
+    "contexts": [
+      "IT支持.md: 屏幕共享失败排查：检查网络、确认软件权限、重启软件、检查插件冲突。无法解决联系IT支持。"
+    ],
+    "metadata": {
+      "domain": "it",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/it/IT支持.md"
+    },
+    "relevant_docs": [
+      "group/it/IT支持.md"
+    ]
+  },
+  {
+    "id": 32,
+    "question": "保险系统的数据安全等级分为几级？每级包含什么数据？",
+    "answer": "保险系统数据安全分为4级：L1（公开数据）、L2（一般敏感数据）、L3（敏感数据，包括个人身份信息、保单数据）、L4（高度敏感数据，包括完整身份证号、医疗记录、生物特征、财务清算详情）。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 数据分级L1（公开）、L2（一般敏感）、L3（敏感，含PII、保单）、L4（高度敏感，含完整身份证、医疗记录、生物特征、财务清算）。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "medium",
+      "type": "factual",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md"
+    ]
+  },
+  {
+    "id": 33,
+    "question": "访问L3/L4级数据有什么认证要求？",
+    "answer": "访问L3/L4级数据必须启用多因素认证（MFA）。系统支持SSO/OIDC/LDAP/AD认证方式。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 访问L3/L4级数据必须启用多因素认证（MFA），支持SSO/OIDC/LDAP/AD。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md"
+    ]
+  },
+  {
+    "id": 34,
+    "question": "保险系统的安全架构采用什么模型？",
+    "answer": "保险系统采用零信任+纵深防御的安全架构模型。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 安全架构采用零信任+纵深防御模型。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md"
+    ]
+  },
+  {
+    "id": 35,
+    "question": "保险系统的数据安全规范对齐了哪些合规标准？",
+    "answer": "对齐的合规标准包括：PIPL（个人信息保护法）、网络安全法、数据安全法、等保2.0、PCI DSS、ISO 27001/27701。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 合规对齐标准包括PIPL、网络安全法、数据安全法、等保2.0、PCI DSS、ISO 27001/27701。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "medium",
+      "type": "factual",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md"
+    ]
+  },
+  {
+    "id": 36,
+    "question": "保险系统的数据安全分几个阶段实施？各阶段时间是多久？",
+    "answer": "分3个阶段：基线阶段（0-1个月）、加固阶段（1-3个月）、稳态阶段（3-6个月）。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 实施路线图分3阶段：基线（0-1月）、加固（1-3月）、稳态（3-6月）。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md"
+    ]
+  },
+  {
+    "id": 37,
+    "question": "OA系统的弱密码策略是什么？",
+    "answer": "OA系统弱密码策略：密码长度8-12位，需包含多种字符类型，90天轮换一次，历史5次密码不可重复使用。",
+    "contexts": [
+      "OA系统数据安全规范文档.md: 弱密码策略：8-12位，多类型字符，90天轮换，5次历史不可重复。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "biz/biz-oa/OA系统数据安全规范文档.md"
+    },
+    "relevant_docs": [
+      "biz/biz-oa/OA系统数据安全规范文档.md"
+    ]
+  },
+  {
+    "id": 38,
+    "question": "OA系统的备份恢复目标是什么？",
+    "answer": "OA系统的备份恢复目标：RPO（恢复点目标）≤10分钟，RTO（恢复时间目标）≤2小时。",
+    "contexts": [
+      "OA系统数据安全规范文档.md: 备份恢复目标RPO≤10分钟，RTO≤2小时。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "biz/biz-oa/OA系统数据安全规范文档.md"
+    },
+    "relevant_docs": [
+      "biz/biz-oa/OA系统数据安全规范文档.md"
+    ]
+  },
+  {
+    "id": 39,
+    "question": "OA系统的审计日志保留多长时间？",
+    "answer": "一般日志保留不少于180天；管理员和财务相关日志保留1-3年。",
+    "contexts": [
+      "OA系统数据安全规范文档.md: 一般日志≥180天，管理员/财务日志≥1-3年。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "biz/biz-oa/OA系统数据安全规范文档.md"
+    },
+    "relevant_docs": [
+      "biz/biz-oa/OA系统数据安全规范文档.md"
+    ]
+  },
+  {
+    "id": 40,
+    "question": "OA系统中员工、主管、HR、财务分别能看哪些数据？",
+    "answer": "员工：仅查看个人数据；主管：查看自己及下属部门数据；HR：完整数据权限，导出需双审批；财务：查看相关流程数据；管理员：基于角色的权限，需强审计。",
+    "contexts": [
+      "OA系统数据安全规范文档.md: 权限矩阵：员工仅个人数据，主管含下属部门，HR完整双审批导出，财务相关流程，管理员角色+强审计。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "medium",
+      "type": "factual",
+      "source_file": "biz/biz-oa/OA系统数据安全规范文档.md"
+    },
+    "relevant_docs": [
+      "biz/biz-oa/OA系统数据安全规范文档.md"
+    ]
+  },
+  {
+    "id": 41,
+    "question": "字节跳动杭州公司的开票信息是什么？",
+    "answer": "字节跳动杭州公司的开票信息包括：公司名称、纳税人识别号、注册地址及电话、开户银行及账号。具体信息请查阅开票信息文档中字节跳动条目。",
+    "contexts": [
+      "开票信息.md: 字节跳动开票信息包含公司名称、纳税人识别号、注册地址电话、开户银行账号。"
+    ],
+    "metadata": {
+      "domain": "finance",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/group-finance/开票信息.md"
+    },
+    "relevant_docs": [
+      "group/group-finance/开票信息.md"
+    ]
+  },
+  {
+    "id": 42,
+    "question": "哪些公司是小规模纳税人？哪些是一般纳税人？",
+    "answer": "开票信息文档中列出了16家公司的纳税人类型，分为一般纳税人和小规模纳税人两类。具体分类请查阅文档中各公司的纳税资质字段。",
+    "contexts": [
+      "开票信息.md: 16家公司分为一般纳税人和小规模纳税人两类，详见各公司纳税资质字段。"
+    ],
+    "metadata": {
+      "domain": "finance",
+      "difficulty": "medium",
+      "type": "factual",
+      "source_file": "group/group-finance/开票信息.md"
+    },
+    "relevant_docs": [
+      "group/group-finance/开票信息.md"
+    ]
+  },
+  {
+    "id": 43,
+    "question": "大部分公司用的是哪个银行？",
+    "answer": "大部分公司使用中信银行杭州钱江支行或建设银行杭州高新支行。",
+    "contexts": [
+      "开票信息.md: 银行主要为中信银行杭州钱江支行和建设银行杭州高新支行。"
+    ],
+    "metadata": {
+      "domain": "finance",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/group-finance/开票信息.md"
+    },
+    "relevant_docs": [
+      "group/group-finance/开票信息.md"
+    ]
+  },
+  {
+    "id": 44,
+    "question": "保险系统中不同角色（客服、理赔专员、渠道代理）的数据权限有什么区别？",
+    "answer": "根据保险系统权限矩阵：客服可查看客户基本信息和保单摘要；理赔专员可查看理赔详情和医疗记录（需授权）；渠道代理仅可查看自己渠道的保单数据。各角色权限遵循最小权限原则。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 权限矩阵示例：客服查看客户基本信息和保单摘要，理赔专员查看理赔详情和医疗记录（需授权），渠道代理仅查看自己渠道保单。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "hard",
+      "type": "comparative",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md"
+    ]
+  },
+  {
+    "id": 45,
+    "question": "保险系统和OA系统在数据分级上有什么相同和不同之处？",
+    "answer": "相同点：两个系统都采用L1-L4四级数据分级体系，都采用RBAC+ABAC访问控制模型。不同点：保险系统的L3/L4数据侧重保单、理赔、医疗记录，OA系统的L3/L4数据侧重人事档案、薪资、合同、发票等。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 保险系统L1-L4分级，L3含PII保单，L4含医疗记录。",
+      "OA系统数据安全规范文档.md: OA系统L1-L4分级，L3含人事薪资合同，L4含身份证扫描件。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "hard",
+      "type": "comparative",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md",
+      "biz/biz-oa/OA系统数据安全规范文档.md"
+    ]
+  },
+  {
+    "id": 46,
+    "question": "离职员工的账号应该怎么处理？如果不处理会有什么风险？",
+    "answer": "离职员工账号应在离职当天及时撤销。如果不及时撤销，存在安全风险：离职员工可能仍能访问公司敏感数据，OA系统安全规范中将其列为风险场景之一。",
+    "contexts": [
+      "OA系统数据安全规范文档.md: 风险场景之一：离职员工账号未及时撤销，可能导致数据泄露。",
+      "OA系统数据安全规范文档.md: 离职员工账号应在离职当天撤销。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "medium",
+      "type": "causal",
+      "source_file": "biz/biz-oa/OA系统数据安全规范文档.md"
+    },
+    "relevant_docs": [
+      "biz/biz-oa/OA系统数据安全规范文档.md"
+    ]
+  },
+  {
+    "id": 47,
+    "question": "保险系统安全规范中提到了哪些具体的风险场景？举两个例子。",
+    "answer": "风险场景包括：1）理赔医疗影像被批量下载——根因是导出审批流程缺失，需建立DLP+水印机制；2）代理人跨区域查看保单——根因是行级权限未生效，需修复ABAC策略。",
+    "contexts": [
+      "互联网保险系统数据安全规范.md: 风险场景：理赔医疗影像批量下载（导出审批缺失→DLP+水印），代理人跨区域查看保单（行级权限失效→修复ABAC）。"
+    ],
+    "metadata": {
+      "domain": "security",
+      "difficulty": "hard",
+      "type": "exemplification",
+      "source_file": "biz/biz-ins/互联网保险系统数据安全规范.md"
+    },
+    "relevant_docs": [
+      "biz/biz-ins/互联网保险系统数据安全规范.md"
+    ]
+  },
+  {
+    "id": 48,
+    "question": "P5工程师想晋升到P6，需要做哪些准备？",
+    "answer": "P5晋升P6需要：1）绩效表现达标或以上；2）能力评估通过；3）完成相关培训课程；4）获得组织认可。参考示例：P5工程师用1年时间准备晋升P6。",
+    "contexts": [
+      "员工培训.md: 晋升前提条件：绩效表现、能力评估、培训记录、组织认可。P5工程师1年晋升P6示例。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "medium",
+      "type": "procedural",
+      "source_file": "group/hr/员工培训.md"
+    },
+    "relevant_docs": [
+      "group/hr/员工培训.md"
+    ]
+  },
+  {
+    "id": 49,
+    "question": "公司对信息安全有哪些基本要求？员工应该怎么做？",
+    "answer": "公司要求员工遵守法律法规、反骚扰/歧视政策、信息安全保密规定、正确使用工作时间和资源、仅授权对外沟通。信息安全方面需注意数据保密、密码安全、不使用公司资源做私事。",
+    "contexts": [
+      "公司规章制度.md: 员工行为规范包括遵守法律、反骚扰歧视、信息安全保密、正确使用资源、授权对外沟通。"
+    ],
+    "metadata": {
+      "domain": "hr",
+      "difficulty": "easy",
+      "type": "factual",
+      "source_file": "group/hr/公司规章制度.md"
+    },
+    "relevant_docs": [
+      "group/hr/公司规章制度.md"
+    ]
+  },
+  {
+    "id": 50,
+    "question": "IT事件升级路径是什么？P1事件多久需要响应？",
+    "answer": "IT事件升级路径：15分钟内完成分级处理→根据等级上报。P1事件（全园区中断）需15分钟内响应，P2事件（单园区故障）需尽快处理，P3事件（个人设备问题）按常规流程处理。",
+    "contexts": [
+      "IT支持.md: 升级路径：15分钟内分级处理后上报。P1全园区中断15分钟内响应，P2单园区尽快处理，P3常规流程。"
+    ],
+    "metadata": {
+      "domain": "it",
+      "difficulty": "easy",
+      "type": "procedural",
+      "source_file": "group/it/IT支持.md"
+    },
+    "relevant_docs": [
+      "group/it/IT支持.md"
+    ]
+  }
+]

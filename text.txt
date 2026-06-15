@@ -1,0 +1,33 @@
+## 🔍 模块二：稠密+稀疏混合检索
+
+**功能描述**：针对知识库类问题，意图识别驱动检索通道选择，每路通道内引入 Milvus 稀疏向量（BM25）与稠密向量混合检索，RRF 融合多路结果。
+
+### 核心代码位置
+
+| 文件 | 说明 |
+|:---|:---|
+| [SearchChannel.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/SearchChannel.java) | 检索通道接口，定义通道的启用判断和检索逻辑 |
+| [VectorGlobalSearchChannel.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/VectorGlobalSearchChannel.java) | 向量全局检索通道 |
+| [IntentDirectedSearchChannel.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/IntentDirectedSearchChannel.java) | 意图定向检索通道 |
+| [KeywordSearchChannel.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/KeywordSearchChannel.java) | 关键词检索通道 |
+| [AbstractParallelRetriever.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/AbstractParallelRetriever.java) | 并行检索抽象基类 |
+| [MultiChannelRetrievalEngine.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/MultiChannelRetrievalEngine.java) | 多通道检索引擎，调度多个通道并行执行 |
+
+### 混合检索与融合
+
+| 文件 | 说明 |
+|:---|:---|
+| [FusionStrategy.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/fusion/FusionStrategy.java) | 融合策略接口 |
+| [RRFFusionStrategy.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/fusion/RRFFusionStrategy.java) | RRF（Reciprocal Rank Fusion）融合策略实现 |
+| [WeightedSumFusionStrategy.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/channel/fusion/WeightedSumFusionStrategy.java) | 加权求和融合策略实现 |
+| [HybridFusionPostProcessor.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/postprocessor/HybridFusionPostProcessor.java) | 混合融合后处理器 |
+| [RerankPostProcessor.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/postprocessor/RerankPostProcessor.java) | 重排序后处理器（Cross-Encoder） |
+| [DeduplicationPostProcessor.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/postprocessor/DeduplicationPostProcessor.java) | 去重后处理器 |
+
+### 检索服务
+
+| 文件 | 说明 |
+|:---|:---|
+| [RetrievalEngine.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/RetrievalEngine.java) | 检索引擎接口 |
+| [MilvusRetrieverService.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/MilvusRetrieverService.java) | Milvus 向量检索服务 |
+| [PgRetrieverService.java](bootstrap/src/main/java/com/nageoffer/ai/ragent/rag/core/retrieve/PgRetrieverService.java) | PostgreSQL 检索服务 |

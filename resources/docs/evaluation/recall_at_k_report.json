@@ -1,0 +1,1088 @@
+{
+  "summary": {
+    "recall@1": {
+      "mean": 0.86,
+      "perfect_recall": 42,
+      "total": 50
+    },
+    "recall@3": {
+      "mean": 0.96,
+      "perfect_recall": 48,
+      "total": 50
+    },
+    "recall@5": {
+      "mean": 0.98,
+      "perfect_recall": 49,
+      "total": 50
+    },
+    "recall@10": {
+      "mean": 0.98,
+      "perfect_recall": 49,
+      "total": 50
+    },
+    "recall@15": {
+      "mean": 0.98,
+      "perfect_recall": 49,
+      "total": 50
+    },
+    "recall@20": {
+      "mean": 0.98,
+      "perfect_recall": 49,
+      "total": 50
+    }
+  },
+  "samples": [
+    {
+      "id": 1,
+      "question": "公司试用期一般多长？试用期中间需要做什么评估？",
+      "relevant_docs": [
+        "人事制度.md"
+      ],
+      "retrieved_docs": [
+        "人事制度.md",
+        "招聘信息.md",
+        "员工培训.md",
+        "薪资与福利政策.md",
+        "IT支持.md",
+        "公司规章制度.md",
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 2,
+      "question": "试用期员工辞职需要提前几天通知？转正后呢？",
+      "relevant_docs": [
+        "人事制度.md"
+      ],
+      "retrieved_docs": [
+        "人事制度.md",
+        "公司规章制度.md",
+        "薪资与福利政策.md",
+        "互联网保险系统数据安全规范.md",
+        "招聘信息.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 3,
+      "question": "公司的上班时间是几点到几点？中午休息多长时间？",
+      "relevant_docs": [
+        "公司规章制度.md"
+      ],
+      "retrieved_docs": [
+        "公司规章制度.md",
+        "人事制度.md",
+        "IT支持.md",
+        "招聘信息.md",
+        "薪资与福利政策.md",
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 4,
+      "question": "加班到晚上11点，第二天可以几点上班？如果加班到凌晨呢？",
+      "relevant_docs": [
+        "公司规章制度.md"
+      ],
+      "retrieved_docs": [
+        "公司规章制度.md",
+        "人事制度.md",
+        "薪资与福利政策.md",
+        "OA系统数据安全规范文档.md",
+        "招聘信息.md",
+        "员工培训.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 5,
+      "question": "公司有哪些类型的假期？年假怎么申请？",
+      "relevant_docs": [
+        "人事制度.md"
+      ],
+      "retrieved_docs": [
+        "人事制度.md",
+        "薪资与福利政策.md",
+        "员工培训.md",
+        "招聘信息.md",
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 6,
+      "question": "年假可以结转到下一年吗？什么时候清零？",
+      "relevant_docs": [
+        "人事制度.md"
+      ],
+      "retrieved_docs": [
+        "人事制度.md",
+        "薪资与福利政策.md",
+        "员工培训.md",
+        "公司规章制度.md",
+        "招聘信息.md",
+        "OA系统数据安全规范文档.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 7,
+      "question": "绩效考核的结果有几个等级？如果对考核结果不满意怎么办？",
+      "relevant_docs": [
+        "人事制度.md"
+      ],
+      "retrieved_docs": [
+        "薪资与福利政策.md",
+        "员工培训.md",
+        "人事制度.md",
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "招聘信息.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 8,
+      "question": "公司的晋升流程是怎样的？",
+      "relevant_docs": [
+        "人事制度.md",
+        "员工培训.md"
+      ],
+      "retrieved_docs": [
+        "员工培训.md",
+        "人事制度.md",
+        "招聘信息.md",
+        "薪资与福利政策.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 0.5,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 9,
+      "question": "公司有哪几种职级晋升通道？可以跨通道转吗？",
+      "relevant_docs": [
+        "员工培训.md"
+      ],
+      "retrieved_docs": [
+        "员工培训.md",
+        "IT支持.md",
+        "人事制度.md",
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "招聘信息.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 10,
+      "question": "P5工程师的薪资结构是什么样的？",
+      "relevant_docs": [
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs": [
+        "招聘信息.md",
+        "薪资与福利政策.md",
+        "员工培训.md",
+        "OA系统数据安全规范文档.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 11,
+      "question": "每月几号发工资？工资是怎么构成的？",
+      "relevant_docs": [
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs": [
+        "薪资与福利政策.md",
+        "招聘信息.md",
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "人事制度.md",
+        "员工培训.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 12,
+      "question": "试用期的工资会打折吗？年终奖是必须发的吗？",
+      "relevant_docs": [
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs": [
+        "薪资与福利政策.md",
+        "人事制度.md",
+        "招聘信息.md",
+        "OA系统数据安全规范文档.md",
+        "员工培训.md",
+        "公司规章制度.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 13,
+      "question": "发现工资不对怎么办？流程是什么？",
+      "relevant_docs": [
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs": [
+        "公司规章制度.md",
+        "薪资与福利政策.md",
+        "人事制度.md",
+        "招聘信息.md",
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 14,
+      "question": "社会招聘从投简历到拿offer一般要多久？",
+      "relevant_docs": [
+        "招聘信息.md"
+      ],
+      "retrieved_docs": [
+        "招聘信息.md",
+        "人事制度.md",
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 15,
+      "question": "社会招聘的完整流程包括哪些环节？",
+      "relevant_docs": [
+        "招聘信息.md"
+      ],
+      "retrieved_docs": [
+        "招聘信息.md",
+        "人事制度.md",
+        "员工培训.md",
+        "薪资与福利政策.md",
+        "公司规章制度.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 16,
+      "question": "新员工入职第一天需要做什么？",
+      "relevant_docs": [
+        "招聘信息.md"
+      ],
+      "retrieved_docs": [
+        "员工培训.md",
+        "招聘信息.md",
+        "IT支持.md",
+        "人事制度.md",
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 0.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 17,
+      "question": "新员工入职第一个月有哪些关键节点？",
+      "relevant_docs": [
+        "招聘信息.md"
+      ],
+      "retrieved_docs": [
+        "招聘信息.md",
+        "员工培训.md",
+        "IT支持.md",
+        "人事制度.md",
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 18,
+      "question": "新员工的电脑是怎么发放的？",
+      "relevant_docs": [
+        "招聘信息.md"
+      ],
+      "retrieved_docs": [
+        "招聘信息.md",
+        "IT支持.md",
+        "员工培训.md",
+        "人事制度.md",
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 19,
+      "question": "公司培训有哪几类？新员工培训包含什么内容？",
+      "relevant_docs": [
+        "员工培训.md"
+      ],
+      "retrieved_docs": [
+        "员工培训.md",
+        "招聘信息.md",
+        "IT支持.md",
+        "OA系统数据安全规范文档.md",
+        "人事制度.md",
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 20,
+      "question": "可以跨部门报名参加培训课程吗？",
+      "relevant_docs": [
+        "员工培训.md"
+      ],
+      "retrieved_docs": [
+        "员工培训.md",
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "IT支持.md",
+        "薪资与福利政策.md",
+        "招聘信息.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 21,
+      "question": "公司对兼职有什么规定？",
+      "relevant_docs": [
+        "公司规章制度.md"
+      ],
+      "retrieved_docs": [
+        "公司规章制度.md",
+        "人事制度.md",
+        "IT支持.md",
+        "薪资与福利政策.md",
+        "招聘信息.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 22,
+      "question": "什么情况下会被认定为违纪？处理流程是什么？",
+      "relevant_docs": [
+        "公司规章制度.md"
+      ],
+      "retrieved_docs": [
+        "公司规章制度.md",
+        "人事制度.md",
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "薪资与福利政策.md",
+        "招聘信息.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 23,
+      "question": "员工家属可以来公司探访吗？有什么规定？",
+      "relevant_docs": [
+        "公司规章制度.md"
+      ],
+      "retrieved_docs": [
+        "公司规章制度.md",
+        "人事制度.md",
+        "IT支持.md",
+        "薪资与福利政策.md",
+        "OA系统数据安全规范文档.md",
+        "招聘信息.md",
+        "员工培训.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 24,
+      "question": "公司为员工提供哪些福利？",
+      "relevant_docs": [
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs": [
+        "薪资与福利政策.md",
+        "人事制度.md",
+        "招聘信息.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 4,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 25,
+      "question": "公司年度调薪是怎么操作的？",
+      "relevant_docs": [
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs": [
+        "薪资与福利政策.md",
+        "人事制度.md",
+        "招聘信息.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 26,
+      "question": "忘记密码了怎么重置？",
+      "relevant_docs": [
+        "IT支持.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs_count": 2,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 27,
+      "question": "VPN连不上怎么排查？",
+      "relevant_docs": [
+        "IT支持.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs_count": 2,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 28,
+      "question": "怎么在电脑上添加打印机？",
+      "relevant_docs": [
+        "IT支持.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "公司规章制度.md",
+        "员工培训.md",
+        "招聘信息.md",
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 29,
+      "question": "收到钓鱼邮件应该怎么处理？",
+      "relevant_docs": [
+        "IT支持.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "公司规章制度.md",
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "招聘信息.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 30,
+      "question": "IT事件的严重等级是怎么划分的？",
+      "relevant_docs": [
+        "IT支持.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 31,
+      "question": "会议屏幕共享失败了怎么处理？",
+      "relevant_docs": [
+        "IT支持.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "公司规章制度.md",
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 32,
+      "question": "保险系统的数据安全等级分为几级？每级包含什么数据？",
+      "relevant_docs": [
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "IT支持.md",
+        "员工培训.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 33,
+      "question": "访问L3/L4级数据有什么认证要求？",
+      "relevant_docs": [
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 34,
+      "question": "保险系统的安全架构采用什么模型？",
+      "relevant_docs": [
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 35,
+      "question": "保险系统的数据安全规范对齐了哪些合规标准？",
+      "relevant_docs": [
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "招聘信息.md",
+        "IT支持.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 36,
+      "question": "保险系统的数据安全分几个阶段实施？各阶段时间是多久？",
+      "relevant_docs": [
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 37,
+      "question": "OA系统的弱密码策略是什么？",
+      "relevant_docs": [
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs": [
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "IT支持.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 4,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 38,
+      "question": "OA系统的备份恢复目标是什么？",
+      "relevant_docs": [
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs": [
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "人事制度.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 4,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 39,
+      "question": "OA系统的审计日志保留多长时间？",
+      "relevant_docs": [
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs": [
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "IT支持.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 4,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 40,
+      "question": "OA系统中员工、主管、HR、财务分别能看哪些数据？",
+      "relevant_docs": [
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs": [
+        "OA系统数据安全规范文档.md",
+        "人事制度.md",
+        "互联网保险系统数据安全规范.md",
+        "薪资与福利政策.md",
+        "员工培训.md",
+        "招聘信息.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 41,
+      "question": "字节跳动杭州公司的开票信息是什么？",
+      "relevant_docs": [
+        "开票信息.md"
+      ],
+      "retrieved_docs": [
+        "开票信息.md",
+        "招聘信息.md",
+        "公司规章制度.md",
+        "OA系统数据安全规范文档.md",
+        "薪资与福利政策.md",
+        "IT支持.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 42,
+      "question": "哪些公司是小规模纳税人？哪些是一般纳税人？",
+      "relevant_docs": [
+        "开票信息.md"
+      ],
+      "retrieved_docs": [
+        "开票信息.md",
+        "互联网保险系统数据安全规范.md",
+        "员工培训.md",
+        "OA系统数据安全规范文档.md",
+        "人事制度.md",
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 43,
+      "question": "大部分公司用的是哪个银行？",
+      "relevant_docs": [
+        "开票信息.md"
+      ],
+      "retrieved_docs": [
+        "开票信息.md",
+        "互联网保险系统数据安全规范.md",
+        "薪资与福利政策.md",
+        "招聘信息.md",
+        "OA系统数据安全规范文档.md",
+        "员工培训.md"
+      ],
+      "retrieved_docs_count": 6,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 44,
+      "question": "保险系统中不同角色（客服、理赔专员、渠道代理）的数据权限有什么区别？",
+      "relevant_docs": [
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "IT支持.md",
+        "薪资与福利政策.md",
+        "人事制度.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 45,
+      "question": "保险系统和OA系统在数据分级上有什么相同和不同之处？",
+      "relevant_docs": [
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "人事制度.md",
+        "薪资与福利政策.md",
+        "员工培训.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 0.5,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 46,
+      "question": "离职员工的账号应该怎么处理？如果不处理会有什么风险？",
+      "relevant_docs": [
+        "OA系统数据安全规范文档.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "IT支持.md",
+        "薪资与福利政策.md",
+        "OA系统数据安全规范文档.md",
+        "员工培训.md",
+        "人事制度.md",
+        "公司规章制度.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 47,
+      "question": "保险系统安全规范中提到了哪些具体的风险场景？举两个例子。",
+      "relevant_docs": [
+        "互联网保险系统数据安全规范.md"
+      ],
+      "retrieved_docs": [
+        "互联网保险系统数据安全规范.md",
+        "OA系统数据安全规范文档.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 3,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 48,
+      "question": "P5工程师想晋升到P6，需要做哪些准备？",
+      "relevant_docs": [
+        "员工培训.md"
+      ],
+      "retrieved_docs": [
+        "员工培训.md",
+        "招聘信息.md",
+        "人事制度.md",
+        "薪资与福利政策.md",
+        "IT支持.md"
+      ],
+      "retrieved_docs_count": 5,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    },
+    {
+      "id": 49,
+      "question": "公司对信息安全有哪些基本要求？员工应该怎么做？",
+      "relevant_docs": [
+        "公司规章制度.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "OA系统数据安全规范文档.md",
+        "互联网保险系统数据安全规范.md",
+        "员工培训.md"
+      ],
+      "retrieved_docs_count": 4,
+      "recall@1": 0.0,
+      "recall@3": 0.0,
+      "recall@5": 0.0,
+      "recall@10": 0.0,
+      "recall@15": 0.0,
+      "recall@20": 0.0
+    },
+    {
+      "id": 50,
+      "question": "IT事件升级路径是什么？P1事件多久需要响应？",
+      "relevant_docs": [
+        "IT支持.md"
+      ],
+      "retrieved_docs": [
+        "IT支持.md",
+        "OA系统数据安全规范文档.md",
+        "员工培训.md",
+        "公司规章制度.md",
+        "互联网保险系统数据安全规范.md",
+        "招聘信息.md",
+        "薪资与福利政策.md"
+      ],
+      "retrieved_docs_count": 7,
+      "recall@1": 1.0,
+      "recall@3": 1.0,
+      "recall@5": 1.0,
+      "recall@10": 1.0,
+      "recall@15": 1.0,
+      "recall@20": 1.0
+    }
+  ]
+}
