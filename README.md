@@ -1,11 +1,3 @@
-<p align="center">
-  <a href="https://github.com/nageoffer/ragent">
-    <picture>
-      <source srcset="assets/ragent-ai-banner.png">
-      <img src="assets/ragent-ai-banner.png" alt="Ragent AI">
-    </picture>
-  </a>
-</p>
 
 <p align="center">
   <strong>面向高校教务场景的 RAG 智能问答平台</strong><br/>
