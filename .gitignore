@@ -45,3 +45,7 @@ dist/
 
 ### Claude Code ###
 .waylog/
+
+# ### Environment Variables ###
+.env
+.env.local

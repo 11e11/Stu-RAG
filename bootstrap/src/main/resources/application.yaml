@@ -11,7 +11,7 @@ spring:
     openai:
       # 默认使用 mimo 供应商（所有供应商都兼容OpenAI协议）
       base-url: https://token-plan-cn.xiaomimimo.com/v1
-      api-key: ${MIMO_API_KEY:tp-czbtpkp0sn2j8cr94ujj6kasegtyl5yk1fs41511eifvgtif}
+      api-key: ${MIMO_API_KEY:}
       chat:
         options:
           model: mimo-v2-pro
@@ -143,14 +143,14 @@ ai:
         embedding: /v1/embeddings
     siliconflow:
       url: https://api.siliconflow.cn
-      api-key: sk-hxbfynpfpvzerweiruelshygdsodzjfstkugaxztxexhytdb
+      api-key: ${SILICONFLOW_API_KEY:}
       endpoints:
         chat: /v1/chat/completions
         embedding: /v1/embeddings
         rerank: /v1/rerank
     mimo:
       url: https://token-plan-cn.xiaomimimo.com/v1
-      api-key: tp-czbtpkp0sn2j8cr94ujj6kasegtyl5yk1fs41511eifvgtif
+      api-key: ${MIMO_API_KEY:}
       endpoints:
         chat: /chat/completions
 
